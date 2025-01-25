@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="name" content="Rajib Ahmed" />
+    <meta
+      name="description"
+      content="Discover the latest trends in penguin-inspired fashion, featuring stylish apparel, accessories, and designs inspired by these charming creatures. Embrace your love for penguins with our unique and sustainable fashion collections."
+    />
+    <meta
+      name="keywords"
+      content="penguin fashion, penguin-inspired clothing, penguin accessories, trendy penguin apparel, penguin-themed outfits, sustainable penguin fashion, unique animal fashion, penguin design clothing, penguin style, penguin fashion trends."
+    />
+    <title>Penguin Fashion Project</title>
+    <link rel="icon" type="image/x-icon" href="./icons/penguin.png" />
+    <link rel="stylesheet" href="./styles/style-1.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="bg-[#fffbf0]">
+      <div class="w-[85%] mx-auto">
+        <header class="flex py-8 justify-between items-center">
+          <img src="./icons/logo.png" class="w-64" alt="Penguin Fashion" />
+
+          <!-- Desktop Navbar: Hidden on small and medium, visible on large screens -->
+          <nav class="hidden lg:block">
+            <ul class="flex gap-x-8 text-lg text-[#3C3C3C] font-semibold">
+              <li><a href="">Home</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </nav>
+
+          <!-- Hamburger Menu: Visible on small and medium screens, hidden on large -->
+          <img
+            src="./icons/Group (1).png"
+            alt="Hamburger Menu"
+            class="lg:hidden block max-w-full h-auto"
+          />
+        </header>
+        <div class="flex justify-between items-center sm:space-y-8">
+            <div class="space-y-5 flex-1">
+              <h1 class="lg:text-7xl md:text-6xl sm:text-5xl text-[#363958] lg:leading-[6rem] sm:leading-[4rem] md:leading-[5rem]">
+                <span class="text-[#FABE4C]">Be the Penguins<br></span>
+                of Winter
+              </h1>
+              <p class="text-lg text-[#3E3E3E]">
+                Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry.
+              </p>
+              <button class="py-[10px] px-[40px] bg-gradient-to-b from-[#A4BC46] to-[#4CAF50] flex items-center font-bold text-white rounded-lg">
+                <img class="w-[30px] mr-2" src="./icons/shopping-cart 1.png" /> BUY NOW
+              </button>
+            </div>
+            
+            <!-- Image Section -->
+            <div class="flex-1">
+              <img src="./images/model.png" alt="main-image" class="max-w-full h-auto min-w-[300px]" />
+            </div>
+          </div>
+
+      </div>
+    </section>
+  </body>
+</html>
